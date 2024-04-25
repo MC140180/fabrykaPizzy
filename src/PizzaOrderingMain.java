@@ -7,8 +7,8 @@ public class PizzaOrderingMain {
 
         PizzaStore americanPizza = new AmericanPizzaStore();
 
-        americanPizza.orderPizza("margherita");
+        orderedPizza = americanPizza.orderPizza("margherita");
 
-        System.out.println("Ordered pizza: " + americanPizza);
+        System.out.println("Ordered pizza: " + orderedPizza);
     }
 }

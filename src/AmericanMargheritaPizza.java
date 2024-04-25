@@ -1,8 +1,8 @@
 public class AmericanMargheritaPizza extends Pizza{
     public AmericanMargheritaPizza(){
-        sauce = "ketchup";
+        sauce = "tomato";
         dough = "Thick crust";
         name = "American Margherita Pizza";
-        toppings.add("Cheese like product");
+        toppings.add("Cheese");
     }
 }

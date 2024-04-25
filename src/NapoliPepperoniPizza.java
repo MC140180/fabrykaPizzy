@@ -1,7 +1,7 @@
 public class NapoliPepperoniPizza extends  Pizza{
     public NapoliPepperoniPizza() {
-        name = "Napoli pepperoni pizza";
-        dough = "Thin crust dough";
+        name = "Neapolitan pepperoni pizza";
+        dough = "Thin crust";
         sauce = "Marinara sauce";
         toppings.add("Cheese");
         toppings.add("Pepperoni");

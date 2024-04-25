@@ -1,9 +1,9 @@
 public class AmericanPepperoniPizza extends Pizza{
     public AmericanPepperoniPizza(){
-        sauce = "ketchup";
+        sauce = "tomato";
         dough = "Thick crust";
         name = "American Pepperoni Pizza";
-        toppings.add("Cheese-like product");
-        toppings.add("Pepperoni with dog grounded together with dog-house");
+        toppings.add("Cheese");
+        toppings.add("Pepperoni");
     }
 }

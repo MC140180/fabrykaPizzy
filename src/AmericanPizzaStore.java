@@ -1,13 +1,10 @@
 public class AmericanPizzaStore extends PizzaStore{
     @Override
     Pizza createPizza(String type) {
-        switch (type) {
-            case "pepperoni":
-                return new AmericanPepperoniPizza();
-            case "margherita":
-                return new AmericanMargheritaPizza();
-            default:
-                return null;
-        }
+        return switch (type) {
+            case "pepperoni" -> new AmericanPepperoniPizza();
+            case "margherita" -> new AmericanMargheritaPizza();
+            default -> null;
+        };
     }
 }

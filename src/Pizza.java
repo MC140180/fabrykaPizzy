@@ -7,14 +7,14 @@ public abstract class Pizza {
     ArrayList<String> toppings = new ArrayList<>();
 
     void prepare() {
-        System.out.print("preparing pizza " + name + ", sauce: " + sauce + " dough: " + dough + " i dodatki: ");
+        System.out.print("preparing pizza " + name + ", sauce: " + sauce + " dough: " + dough + " and toppings: \n");
         for (String s : toppings) {
-            System.out.print(s + ", ");
+            System.out.print(s + ", \n");
         }
     }
 
     @Override
     public String toString() {
-     return   name + " pizza with " + sauce + " sauce " + dough + " dough ";
+     return   name + " with " + sauce + " sauce, " + dough + " dough, toppings: " + toppings.toString() ;
     }
 }
